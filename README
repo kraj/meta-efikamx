@@ -1,0 +1,23 @@
+This is a machine layer for efikaMX from Genisi
+http://www.powerdeveloper.org/platforms/efikamx/linux
+
+Currently supports Angstrom distribution well on top
+of openembedded-core
+
+It depends on:
+
+URI: git://git.openembedded.org/openembedded-core
+branch: master
+revision: HEAD
+
+URI: git://git.angstrom-distribution.org/meta-angstrom
+branch: master
+revision: HEAD
+
+URI: git://git.openembedded.net/meta-openembedded
+branch: master
+revision: HEAD
+
+Send pull requests to raj.khem@gmail.com
+
+Layer maintainer: Khem Raj <raj.khem@gmail.com>
