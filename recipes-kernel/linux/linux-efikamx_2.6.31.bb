@@ -13,7 +13,7 @@ efikamx_kernel_do_unpack () {
        mkdir -p ${S}
        tar xf ${DL_DIR}/${PN}-${PV}.tar.lzma --strip-components=1 -C ${S}
        tar xf ${DL_DIR}/patch-${PV}.tar.lzma -C ${S}
-       (cd ${S}/patches; ln -s ${FILESPATHBASE}/${PN}-${PV}/remove-localversion.patch .)
+       (cd ${S}/patches; ln -s ${FILESDIR}/remove-localversion.patch .)
 }
 
 python do_patch () {
